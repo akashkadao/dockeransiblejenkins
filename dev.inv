@@ -1,3 +1,5 @@
 [Jenkins-slave]
 172.31.81.232
+
+[Jenkins-slave:vars]
 ansible_python_interpreter=/usr/bin/python3
