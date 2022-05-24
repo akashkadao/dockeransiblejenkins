@@ -1,8 +1,9 @@
 ---
 - hosts: Jenkins-slave
+  become: True
+  
   vars:
     - ansible_python_interpreter: /usr/bin/python3
-  become: True
   tasks:
     - name: Install python pip
       apt:
